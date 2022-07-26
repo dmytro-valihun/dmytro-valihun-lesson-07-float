@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.top-line {
+    background-color: #EFEFEF;
+}
+
+.top-links {
+    float: right;
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+.top-links a {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    text-decoration: none;
+    margin-left: 30px;    
+}
+
+.head-div {
+    border: 1px solid #EFEFEF;
+}
+
+.logo {
+    float: left;
+    margin-top: 20px;
+}
+
+.btn, .tel {
+    float: right;
+}
+
+.btn {
+    margin: 39px 0;
+    margin-left: 41px;
+}
+
+.tel {
+    margin: 49px 0;
+}
+
+.btn-callback {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 10px 24px;
+    background-color: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+}
+
+.nav div {
+    text-align: center;
+    margin-top: 29px;
+    margin-bottom: 32px;
+    margin-left: 37px;
+}
+
+.nav a {
+    margin-right: 36px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* ----------------- main -------------- */
+
+.main-up {
+    background-color: #F13C6E;
+}
+
+.main-up article {
+    float: left;
+    width: 555px;
+    margin-top: 192px;
+    margin-bottom: 204px;
+}
+
+.main-up .big-chair {
+    float: left;  
+}
+
+.name-of-chair {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.main-up p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 308px;
+    margin-top: 37px;
+    margin-bottom: 55px;
+}
+
+.main-up .detail {
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    padding: 10px 44px;
+}
+
+.main-up .big-chair {
+    margin-top: 20px;
+    padding-left: 35px;
+    font-size: 0;
+}
+
+.main-down {
+    background-color: #EFEFEF;
+}
+
+.main-down section {
+    padding-top: 80px;
+    padding-bottom: 55px;
+}
+
+.main-down h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-bottom: 38px;
+}
+
+.main-down .goods {
+    font-size: 0;
+}
+
+.buy-chair {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 255px;
+    padding: 25px 21px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+}
+
+.buy-chair a {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+.buy-chair a:last-of-type {
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border-radius: 30px;
+    padding: 9px 40px;
+}
+
+.name-of-little-chair {
+    margin: 14px 0;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-bottom: 15px;
+}
+
+.container .mg-rt-0 {
+    margin-right: 0;
+}
+
+.footer-up {
+    border-bottom: 1px solid #EFEFEF;
+    font-size: 0;
+}
+
+.blocks {
+    display: inline-block;
+    vertical-align: top;
+    width: 255px;
+    margin-top: 83px;
+    margin-right: 30px;
+    margin-bottom: 49px;
+}
+
+.blocks p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000; 
+    padding-bottom: 46px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.blocks ul {
+    list-style-type: none;
+    margin-top: 25px;
+    padding-left: 0;
+}
+
+.blocks a {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.youtube, .facebook, .insta {
+    float: left;
+    margin: 37px 20px 34px 0;
+}
+
+.footer-down {
+    background-color: #EFEFEF;
+}
+
+.copyright {
+    float: left;
+    margin: 25px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.politic {
+    float: right;
+    margin: 21px 0;
+}
+
+.politic a {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.color-link:hover {
+    color:cornflowerblue
+}
+
+.bg-color:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.main-down .buy:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.cursor-1:hover {
+    cursor:no-drop;
+}
+
+.cursor-2:hover {
+    cursor: help;
+}
+
